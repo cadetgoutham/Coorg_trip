@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Ycadetgoutham.github.io/Coorg_trip",
+  "homepage": "https://cadetgoutham.github.io/Coorg_trip",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
