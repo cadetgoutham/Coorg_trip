@@ -248,14 +248,23 @@ const CompleteItinerary = () => {
   const day2Itinerary = [
     {
       time: '6:00 AM',
-      title: 'Getting Ready',
-      icon: Moon,
-      color: 'bg-indigo-500',
-      details: 'Prepare for the trek day',
-      travel: null
+      title: 'Wake Up & Breakfast',
+      icon: Coffee,
+      color: 'bg-amber-600',
+      details: 'Early breakfast at hotel before checkout',
+      travel: null,
+      duration: '~1 hour'
     },
     {
       time: '7:00 AM',
+      title: 'Pack & Prepare for Checkout',
+      icon: Hotel,
+      color: 'bg-indigo-500',
+      details: 'Pack luggage and prepare for 10 AM checkout',
+      travel: null
+    },
+    {
+      time: '8:00 AM',
       title: 'Starting for Tadiandamol Peak',
       icon: Navigation,
       color: 'bg-orange-500',
@@ -263,7 +272,7 @@ const CompleteItinerary = () => {
       travel: '44 km travel'
     },
     {
-      time: '8:30 AM',
+      time: '9:30 AM',
       title: 'Tadiandamol Trek Starts',
       icon: Mountain,
       color: 'bg-green-600',
@@ -273,12 +282,13 @@ const CompleteItinerary = () => {
       highlight: '⛰️ Trekking'
     },
     {
-      time: '1:30 PM',
-      title: 'Starting to Madikeri',
-      icon: Navigation,
-      color: 'bg-blue-500',
-      details: 'Return journey after completing trek',
-      travel: '44 km travel'
+      time: '2:30 PM',
+      title: 'Trek Completed',
+      icon: Mountain,
+      color: 'bg-green-700',
+      details: 'Trek completed - heading for lunch',
+      travel: null,
+      highlight: '✅ Done'
     },
     {
       time: '3:00 PM',
@@ -286,12 +296,20 @@ const CompleteItinerary = () => {
       icon: Utensils,
       color: 'bg-red-500',
       details: 'Well-deserved meal after the trek',
-      travel: null,
+      travel: 'At nearby restaurant',
       duration: '1 hour',
       highlight: '🍽️ Lunch'
     },
     {
       time: '4:00 PM',
+      title: 'Starting to Madikeri',
+      icon: Navigation,
+      color: 'bg-blue-500',
+      details: 'Journey to Madikeri for sightseeing',
+      travel: '44 km travel'
+    },
+    {
+      time: '5:00 PM',
       title: 'Madikeri Fort',
       icon: Castle,
       color: 'bg-red-600',
@@ -300,7 +318,7 @@ const CompleteItinerary = () => {
       duration: '1 hour'
     },
     {
-      time: '5:00 PM',
+      time: '6:00 PM',
       title: 'Raja\'s Seat',
       icon: Crown,
       color: 'bg-yellow-500',
@@ -310,15 +328,7 @@ const CompleteItinerary = () => {
       highlight: '👑 Royal View'
     },
     {
-      time: '6:00 PM',
-      title: 'Starting to Hotel',
-      icon: Hotel,
-      color: 'bg-purple-500',
-      details: 'Quick stop at hotel',
-      travel: null
-    },
-    {
-      time: '6:30 PM',
+      time: '7:00 PM',
       title: 'Return Journey to Mysore',
       icon: Navigation,
       color: 'bg-indigo-600',
